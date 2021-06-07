@@ -23,4 +23,10 @@ class AsyncExamplesTests: XCTestCase {
             XCTAssertEqual(error as? UserError, UserError.invalidCount)
         }
     }
+
+    func testAsyncFailure_Alt() async {
+        // XCTAssertThrowsError(try await fetchUsers(count: 4))
+        // Doesn't compile:
+        // > 'async' call in an autoclosure that does not support concurrency
+    }
 }
