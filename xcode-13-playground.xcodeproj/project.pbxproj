@@ -31,6 +31,7 @@
 		3F148C8E266EBCDB00CB2612 /* AsyncExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F148C93266EBCDB00CB2612 /* AsyncExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncExamplesTests.swift; sourceTree = "<group>"; };
 		3F148C9C266EBD1600CB2612 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
+		3F148C9E266EC64200CB2612 /* AsyncExamples–TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AsyncExamples–TestPlan.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				3F148C93266EBCDB00CB2612 /* AsyncExamplesTests.swift */,
+				3F148C9E266EC64200CB2612 /* AsyncExamples–TestPlan.xctestplan */,
 			);
 			path = AsyncExamplesTests;
 			sourceTree = "<group>";
