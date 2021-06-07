@@ -11,6 +11,7 @@
 		3F148C8F266EBCDB00CB2612 /* AsyncExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F148C84266EBCDB00CB2612 /* AsyncExamples.framework */; };
 		3F148C94266EBCDB00CB2612 /* AsyncExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F148C93266EBCDB00CB2612 /* AsyncExamplesTests.swift */; };
 		3F148C95266EBCDB00CB2612 /* AsyncExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F148C87266EBCDB00CB2612 /* AsyncExamples.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F148C9D266EBD1600CB2612 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F148C9C266EBD1600CB2612 /* AsyncAwait.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		3F148C88266EBCDB00CB2612 /* AsyncExamples.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AsyncExamples.docc; sourceTree = "<group>"; };
 		3F148C8E266EBCDB00CB2612 /* AsyncExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F148C93266EBCDB00CB2612 /* AsyncExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncExamplesTests.swift; sourceTree = "<group>"; };
+		3F148C9C266EBD1600CB2612 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,9 @@
 		3F148C86266EBCDB00CB2612 /* AsyncExamples */ = {
 			isa = PBXGroup;
 			children = (
-				3F148C87266EBCDB00CB2612 /* AsyncExamples.h */,
+				3F148C9C266EBD1600CB2612 /* AsyncAwait.swift */,
 				3F148C88266EBCDB00CB2612 /* AsyncExamples.docc */,
+				3F148C87266EBCDB00CB2612 /* AsyncExamples.h */,
 			);
 			path = AsyncExamples;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F148C89266EBCDB00CB2612 /* AsyncExamples.docc in Sources */,
+				3F148C9D266EBD1600CB2612 /* AsyncAwait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
