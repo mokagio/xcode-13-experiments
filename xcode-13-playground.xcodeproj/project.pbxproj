@@ -10,6 +10,7 @@
 		3F148C89266EBCDB00CB2612 /* AsyncExamples.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3F148C88266EBCDB00CB2612 /* AsyncExamples.docc */; };
 		3F148C8F266EBCDB00CB2612 /* AsyncExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F148C84266EBCDB00CB2612 /* AsyncExamples.framework */; };
 		3F148C95266EBCDB00CB2612 /* AsyncExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F148C87266EBCDB00CB2612 /* AsyncExamples.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3BA3B926709FB9003921FE /* Vegetables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BA3B826709FB9003921FE /* Vegetables.swift */; };
 		3F45E10E266EF01D00A5A60A /* AsyncAwaitTestExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45E10D266EF01D00A5A60A /* AsyncAwaitTestExamples.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3F148C88266EBCDB00CB2612 /* AsyncExamples.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AsyncExamples.docc; sourceTree = "<group>"; };
 		3F148C8E266EBCDB00CB2612 /* AsyncExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F148C9E266EC64200CB2612 /* AsyncExamples–TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AsyncExamples–TestPlan.xctestplan"; sourceTree = "<group>"; };
+		3F3BA3B826709FB9003921FE /* Vegetables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetables.swift; sourceTree = "<group>"; };
 		3F45E10D266EF01D00A5A60A /* AsyncAwaitTestExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitTestExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			children = (
 				3F148C88266EBCDB00CB2612 /* AsyncExamples.docc */,
 				3F148C87266EBCDB00CB2612 /* AsyncExamples.h */,
+				3F3BA3B826709FB9003921FE /* Vegetables.swift */,
 			);
 			path = AsyncExamples;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F148C89266EBCDB00CB2612 /* AsyncExamples.docc in Sources */,
+				3F3BA3B926709FB9003921FE /* Vegetables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 		3F148C98266EBCDB00CB2612 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -471,6 +476,7 @@
 		3F148C99266EBCDB00CB2612 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
