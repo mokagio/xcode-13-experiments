@@ -29,7 +29,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:AsyncExamplesTests/AsyncExamples&#x2013;TestPlan.xctestplan"
+            reference = "container:AsyncExamplesTests/TestRepetitionExample.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>

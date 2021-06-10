@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "9DA9BA40-8506-4282-B369-1322B0280E3A",
+      "id" : "DE2C0827-2A36-459D-A116-831F33BA4D1B",
       "name" : "Configuration 1",
       "options" : {
 
@@ -9,11 +9,13 @@
     }
   ],
   "defaultOptions" : {
-    "codeCoverage" : false,
-    "testRepetitionMode" : "fixedIterations"
+    "testTimeoutsEnabled" : true
   },
   "testTargets" : [
     {
+      "skippedTests" : [
+        "TestRepetitionExample"
+      ],
       "target" : {
         "containerPath" : "container:xcode-13-playground.xcodeproj",
         "identifier" : "3F148C8D266EBCDB00CB2612",

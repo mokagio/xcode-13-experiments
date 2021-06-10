@@ -13,6 +13,7 @@
 		3F3BA3B926709FB9003921FE /* Vegetables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BA3B826709FB9003921FE /* Vegetables.swift */; };
 		3F3BA3BB2670A024003921FE /* ExpectFailureExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BA3BA2670A024003921FE /* ExpectFailureExamples.swift */; };
 		3F45E10E266EF01D00A5A60A /* AsyncAwaitTestExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45E10D266EF01D00A5A60A /* AsyncAwaitTestExamples.swift */; };
+		3FA72A70267191C000BB58E0 /* TestRepetitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA72A6F267191C000BB58E0 /* TestRepetitionExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,10 +31,12 @@
 		3F148C87266EBCDB00CB2612 /* AsyncExamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncExamples.h; sourceTree = "<group>"; };
 		3F148C88266EBCDB00CB2612 /* AsyncExamples.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AsyncExamples.docc; sourceTree = "<group>"; };
 		3F148C8E266EBCDB00CB2612 /* AsyncExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F148C9E266EC64200CB2612 /* AsyncExamples–TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AsyncExamples–TestPlan.xctestplan"; sourceTree = "<group>"; };
+		3F148C9E266EC64200CB2612 /* TestRepetitionExample.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestRepetitionExample.xctestplan; sourceTree = "<group>"; };
 		3F3BA3B826709FB9003921FE /* Vegetables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetables.swift; sourceTree = "<group>"; };
 		3F3BA3BA2670A024003921FE /* ExpectFailureExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpectFailureExamples.swift; sourceTree = "<group>"; };
 		3F45E10D266EF01D00A5A60A /* AsyncAwaitTestExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitTestExamples.swift; sourceTree = "<group>"; };
+		3FA72A6F267191C000BB58E0 /* TestRepetitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepetitionExample.swift; sourceTree = "<group>"; };
+		3FA72A712671923D00BB58E0 /* Default.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Default.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				3F45E10D266EF01D00A5A60A /* AsyncAwaitTestExamples.swift */,
-				3F148C9E266EC64200CB2612 /* AsyncExamples–TestPlan.xctestplan */,
+				3FA72A712671923D00BB58E0 /* Default.xctestplan */,
 				3F3BA3BA2670A024003921FE /* ExpectFailureExamples.swift */,
+				3F148C9E266EC64200CB2612 /* TestRepetitionExample.xctestplan */,
+				3FA72A6F267191C000BB58E0 /* TestRepetitionExample.swift */,
 			);
 			path = AsyncExamplesTests;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3BA3BB2670A024003921FE /* ExpectFailureExamples.swift in Sources */,
+				3FA72A70267191C000BB58E0 /* TestRepetitionExample.swift in Sources */,
 				3F45E10E266EF01D00A5A60A /* AsyncAwaitTestExamples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

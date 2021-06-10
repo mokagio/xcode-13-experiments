@@ -1,0 +1,52 @@
+{
+  "configurations" : [
+    {
+      "enabled" : false,
+      "id" : "9DA9BA40-8506-4282-B369-1322B0280E3A",
+      "name" : "Test Repetition – None",
+      "options" : {
+
+      }
+    },
+    {
+      "enabled" : false,
+      "id" : "938295A7-E8B8-4C55-AC35-E3DA289F436A",
+      "name" : "Test Repetition – Until Failure",
+      "options" : {
+        "testRepetitionMode" : "untilFailure"
+      }
+    },
+    {
+      "enabled" : false,
+      "id" : "789AD35B-D730-46B4-9CEB-1FBDC2769B7D",
+      "name" : "Test Repetition – Retry on Failure",
+      "options" : {
+        "testRepetitionMode" : "retryOnFailure"
+      }
+    },
+    {
+      "id" : "EC33A8D5-8D20-4C66-9D89-AA5758BD9F72",
+      "name" : "Test Repetition – Up Until Maximum Repetition",
+      "options" : {
+        "testRepetitionMode" : "fixedIterations"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "AsyncAwaitTestExamples",
+        "ExpectFailureExamples"
+      ],
+      "target" : {
+        "containerPath" : "container:xcode-13-playground.xcodeproj",
+        "identifier" : "3F148C8D266EBCDB00CB2612",
+        "name" : "AsyncExamplesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
